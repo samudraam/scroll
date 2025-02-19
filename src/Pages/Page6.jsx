@@ -19,10 +19,10 @@ const Page6 = () => {
           opacity: 1,
           duration: 1,
           ease: "power2.out",
-          immediateRender: false, // Ensures animation plays when scrolling
+          immediateRender: false, 
           scrollTrigger: {
             trigger: square,
-            start: "top 90%", // Ensures even top elements animate
+            start: "top 90%", 
             end: "top 50%",
             toggleActions: "play none none reverse",
           },
@@ -30,7 +30,7 @@ const Page6 = () => {
       );
     });
 
-    ScrollTrigger.refresh(); // Ensures all animations are detected properly
+    ScrollTrigger.refresh();
   }, []);
 
   return (

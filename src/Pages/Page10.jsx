@@ -20,17 +20,17 @@ const Page10 = () => {
     gsap.to(fragments, {
       scale: 1,
       opacity: 1,
-      x: () => (Math.random() - 0.5) * 400, // Spread in random X direction
-      y: () => (Math.random() - 0.5) * 400, // Spread in random Y direction
-      rotation: () => Math.random() * 360, // Random rotation
+      x: () => (Math.random() - 0.5) * 400,
+      y: () => (Math.random() - 0.5) * 400,
+      rotation: () => Math.random() * 360,
       duration: 1,
       stagger: 0.05,
       ease: "power3.out",
       scrollTrigger: {
         trigger: containerRef.current,
         start: "top 50%",
-        end: "top 20%", // Explosion gradually happens over a scroll range
-        scrub: 2, // Smoother scroll-based explosion
+        end: "top 20%",
+        scrub: 2,
       },
     });
 
@@ -43,7 +43,7 @@ const Page10 = () => {
         trigger: containerRef.current,
         start: "top 50%",
         end: "top 30%",
-        scrub: 2, // Box disappears smoothly while scrolling
+        scrub: 2,
       },
     });
 

@@ -6,7 +6,7 @@ import BackButton from "../BackButton";
 gsap.registerPlugin(ScrollTrigger);
 
 const Page2 = () => {
-  const containerRef = useRef(null); // Reference to the div instead of body
+  const containerRef = useRef(null); 
 
   useEffect(() => {
     if (!containerRef.current) return;
