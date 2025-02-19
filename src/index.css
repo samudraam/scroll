@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Laquer;
+  src: url("../src/assets/fonts/Lacquer-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-laquer: Laquer, "sans-serif";
+}
