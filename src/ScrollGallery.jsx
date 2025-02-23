@@ -15,7 +15,7 @@ function ScrollGallery() {
         SCROLL*25
       </h1>
 
-      <div className="grid grid-cols-5 grid-auto-rows w-screen h-screen gap-2 lg:ml-50 min-h-screen">
+      <div className="grid grid-cols-5 grid-auto-rows w-screen h-screen gap-2 items-center justify-center lg:ml-50 min-h-screen">
         {galleryItems.map((item) => (
           <Link key={item.id} to={`/page${item.id}`} className="block">
             <GalleryItem id={item.id} borderColor={item.borderColor} />

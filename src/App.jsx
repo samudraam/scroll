@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import ScrollGallery from "./ScrollGallery";
 import Page1 from "./Pages/Page1";
@@ -11,6 +11,9 @@ import Page7 from "./Pages/Page7";
 import Page8 from "./Pages/Page8";
 import Page9 from "./Pages/Page9";
 import Page10 from "./Pages/Page10";
+import Page11 from "./Pages/Page11";
+import Page12 from "./Pages/Page12";
+import Page13 from "./Pages/Page13";
 
 function App() {
   return (
@@ -28,7 +31,9 @@ function App() {
           <Route path="/page8" element={<Page8 />} />
           <Route path="/page9" element={<Page9 />} />
           <Route path="/page10" element={<Page10 />} />
-
+          <Route path="/page11" element={<Page11 />} />
+          <Route path="/page12" element={<Page12 />} />
+          <Route path="/page13" element={<Page13 />} />
         </Routes>
       </div>
     </Router>

@@ -62,7 +62,10 @@ function GalleryItem({ id, borderColor }) {
         />
       </svg>
 
-      <span ref={numRef} className="absolute text-lg font-laquer text-gray-700">
+      <span
+        ref={numRef}
+        className="absolute text-2xl font-laquer text-gray-700"
+      >
         {id}
       </span>
     </div>
